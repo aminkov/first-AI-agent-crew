@@ -1,0 +1,17 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you research broadly and identify all major aspects of the {topic} given
+    the current year is 2024.
+  expected_output: >
+    A buller point list of 20 high-quality, creative, and diverse article titles about {topic} that cover the major aspects of {topic} and can be further used for writing detailed articles.
+  agent: researcher
+
+reporting_task:
+  description: >
+    Review the context you got and create a detailed books on it. There should be an article of at least 400 words for each of the topics provided.
+    Make sure the book is detailed and contains any and all relevant information.
+  expected_output: >
+    A fully fledged book with the main topics, each with a full section of information.
+    Formatted as markdown without '```'
+  agent: reporting_analyst
